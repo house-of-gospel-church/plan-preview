@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('fonts/bebas-neue/BebasNeue-Bold.eot');
+  src: url('fonts/bebas-neue/BebasNeue-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/bebas-neue/BebasNeue-Bold.woff2') format('woff2'),
+    url('fonts/bebas-neue/BebasNeue-Bold.woff') format('woff'),
+    url('fonts/bebas-neue/BebasNeue-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  font-family: "Tahoma", sans-serif;
+  color: white;
+  background: url("bg.jpg");
+  background-size: cover;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0 50px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 98px;
+  letter-spacing: 3px;
+}
+
+.plan {
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  grid-template-rows: 1fr;
+  grid-gap: 15px;
+  width: 75%;
+}
+
+.plan .date {
+  font-size: 33px;
+  letter-spacing: 2px;
+}
+
+.plan .date:nth-child(4n+1) span {
+  color: #ffd75d;
+}
+
+.plan .date span {
+  text-transform: capitalize;
+  font-size: 39px;
+  font-weight: bold;
+}
+
+.plan .date span::after {
+  content: " ";
+}
+
+.plan .chapter {
+  font-size: 39px;
+  letter-spacing: 2px;
+}
+
+.plan .chapter span {
+  color: #ffd75d;
+  font-weight: bold;
+}
+
+.plan .chapter span::before {
+  content: " ";
+}
+
+.bot .link {
+  font-size: 39px;
+  font-weight: bold;
+}
