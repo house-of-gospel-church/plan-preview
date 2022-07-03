@@ -19,6 +19,10 @@ body {
   background-size: cover;
 }
 
+* {
+  font-size: 50px;
+}
+
 #root {
   display: flex;
   align-items: center;
@@ -33,7 +37,7 @@ h1 {
   font-weight: bold;
   font-style: normal;
   text-transform: uppercase;
-  font-size: 98px;
+  font-size: 120px;
   letter-spacing: 3px;
 }
 
@@ -43,11 +47,11 @@ h1 {
   grid-template-columns: 1fr max-content;
   grid-template-rows: 1fr;
   grid-gap: 15px;
-  width: 75%;
+  width: 80%;
 }
 
 .plan .date {
-  font-size: 33px;
+  font-size: 40px;
   letter-spacing: 2px;
 }
 
@@ -57,7 +61,6 @@ h1 {
 
 .plan .date span {
   text-transform: capitalize;
-  font-size: 39px;
   font-weight: bold;
 }
 
@@ -66,7 +69,6 @@ h1 {
 }
 
 .plan .chapter {
-  font-size: 39px;
   letter-spacing: 2px;
 }
 
@@ -80,6 +82,5 @@ h1 {
 }
 
 .bot .link {
-  font-size: 39px;
   font-weight: bold;
 }

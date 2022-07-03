@@ -149,8 +149,7 @@ const PlanItem = ({ date, book, chapter }) => [
       nextWeekPlan.map((i) => e(PlanItem, i))
     ),
     e("div", { className: "bot" }, [
-      e("img", { src: "" }),
-      e("div", { className: "link" }, "@DEBiblePlanBot"),
+      e("div", { className: "link" }, "Telegram: @DEBiblePlanBot"),
     ]),
   ]);
 })();
