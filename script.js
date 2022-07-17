@@ -96,7 +96,7 @@ const getNextWeekPlan = (plan) => {
   const startDate = new Date(
     now.getFullYear(),
     now.getMonth(),
-    now.getDate() + (8 - now.getDay())
+    now.getDate() + 1
   );
   const finishDate = new Date(
     startDate.getFullYear(),
